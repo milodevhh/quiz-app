@@ -73,3 +73,20 @@ ul {
   display: flex;
   justify-content: space-evenly;
 }
+
+.nav_link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav_link:hover {
+  color: grey;
+}
+
+.nav_link:active {
+  color: pink;
+}
+
+.nav_link:visited {
+  color: #ffffff;
+}
