@@ -11,14 +11,35 @@ h1 {
 
 header {
   background: #030007;
-  margin: 0 0 0 -8px;
+  margin: 0px 0px 0px -8px;
   color: #ffffff;
   height: 60px;
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 h2 {
-  margin-top: 100px;
+  margin-top: 20px;
+}
+
+.question-card {
+  margin-top: 90px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.div_question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-card_categories {
+  display: flex;
+  list-style-type: none;
+  position: absolute bottom -5px left -5px;
 }
