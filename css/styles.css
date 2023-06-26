@@ -40,10 +40,20 @@ h2 {
 }
 
 .question-card_categories {
-  display: flex;
   list-style-type: none;
-  position: absolute bottom -5px left -5px;
+  display: flex;
+  flex-direction: row;
 }
+
+.question-card_categories_list {
+  margin: 0 8px;
+  border: 1px solid black;
+  border-radius: 6px;
+  position: relative;
+  bottom: -40px;
+  left: -20px;
+}
+
 .wine-bottle {
   fill: blueviolet;
   position: absolute;
