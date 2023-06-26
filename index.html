@@ -3,8 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Document</title>
+    <link rel="styles" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Quiz App</h1>
+    </header>
+    <!-- I will use question-card as a class later to style it - What is better to use - or _ when I write a class?  -->
+    <section class="question-card">
+      <h2>What is Riesling?</h2>
+      <button aria-label="Klick here to get answere">Show Answer</button>
+      <p>A Grape variety, that was esay</p>
+      <button>Hide Answer</button>
+      <!-- I will use categories as a class to style it later -->
+      <ul class="question-card_categories">
+        <li>wine</li>
+        <li>basic</li>
+        <li>beverage</li>
+      </ul>
+      <!-- I have to add a Element for a bookmark as well, simple as a <P> Element? -->
+      <p>Placholder icon Bookmak svg</p>
+    </section>
+    <footer>
+      <nav aria-labelledby="">
+        <ul>
+          <li>Quiz</li>
+          <li>Bookmarks</li>
+          <li>Profile Page</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
