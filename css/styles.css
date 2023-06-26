@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
-  display: flex;
-  flex-direction: column;
 }
 
 h1 {
