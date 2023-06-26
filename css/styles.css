@@ -1,18 +1,26 @@
 * {
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 
 header {
   background: #030007;
+  margin: 0 0 0 -8px;
   color: #ffffff;
-  height: 100px;
+  height: 60px;
   width: 100%;
   position: fixed;
-  margin: 0 0 0 0;
   top: 0;
+}
+
+h2 {
+  margin-top: 100px;
 }
