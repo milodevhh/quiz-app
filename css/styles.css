@@ -59,6 +59,7 @@ h2 {
   position: absolute;
   top: -25px;
   right: -15px;
+  z-index: 2;
 }
 
 .wine-bottle:hover {
