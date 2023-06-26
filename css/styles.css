@@ -61,6 +61,11 @@ h2 {
   right: -15px;
 }
 
+.wine-bottle:hover {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+
 footer {
   background: #030007;
   margin: 0px 0px 0px -8px;
