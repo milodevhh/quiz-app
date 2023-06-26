@@ -26,6 +26,7 @@ h2 {
 
 .question-card {
   margin-top: 90px;
+  margin-bottom: 90px;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -48,4 +49,27 @@ h2 {
   position: absolute;
   top: -25px;
   right: -15px;
+}
+
+footer {
+  background: #030007;
+  margin: 0px 0px 0px -8px;
+  color: #ffffff;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 10px 10px;
+  color: #f6f5f8;
+  display: flex;
+  justify-content: space-evenly;
 }
