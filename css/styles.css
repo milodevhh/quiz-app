@@ -33,19 +33,19 @@ h2 {
   position: relative;
 }
 
-.div_question-card {
+.question-card__button {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.question-card_categories {
+.question-card__categories {
   list-style-type: none;
   display: flex;
   flex-direction: row;
 }
 
-.question-card_categories_list {
+.question-card__categories--list {
   margin: 0 8px;
   border: 1px solid black;
   border-radius: 6px;
