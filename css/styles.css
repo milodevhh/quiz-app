@@ -90,20 +90,20 @@ ul {
   justify-content: space-evenly;
 }
 
-.nav_link {
+.nav__list-item {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nav_link:hover {
+.nav__list-item:hover {
   color: grey;
 }
 
-.nav_link:active {
+.nnav__list-item:active {
   color: pink;
 }
 
-.nav_link:visited {
+.nav__list-item:visited {
   color: #ffffff;
 }
 
