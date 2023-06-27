@@ -8,6 +8,8 @@ In this project I build the layout of my first mobile web application, a quiz ap
 
 I made this app during my course @ [neuefische](https://github.com/neuefische)
 
+You can check a demo on [vercel](https://quiz-app-two-eosin.vercel.app/index.html)
+
 The app is bulid with:
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
