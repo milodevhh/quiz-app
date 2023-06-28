@@ -33,19 +33,18 @@ h2 {
   position: relative;
 }
 
-.div_question-card {
+.question-card__answer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.question-card_categories {
+.question-card__list {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
 }
 
-.question-card_categories_list {
+.question-card__list-item {
   margin: 0 8px;
   border: 1px solid black;
   border-radius: 6px;
@@ -82,7 +81,7 @@ ul {
   list-style-type: none;
 }
 
-.nav {
+.nav__list {
   list-style-type: none;
   padding: 10px 10px;
   color: #f6f5f8;
@@ -90,20 +89,20 @@ ul {
   justify-content: space-evenly;
 }
 
-.nav_link {
+.nav__list-item {
   text-decoration: none;
   color: #ffffff;
 }
 
-.nav_link:hover {
+.nav__list-item:hover {
   color: grey;
 }
 
-.nav_link:active {
+.nnav__list-item:active {
   color: pink;
 }
 
-.nav_link:visited {
+.nav__list-item:visited {
   color: #ffffff;
 }
 
