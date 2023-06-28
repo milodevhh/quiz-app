@@ -1,5 +1,7 @@
 :root {
-  --primary-color: #e2ac48;
+  --primary-color: #84a63c;
+  --secondary-color: #b7d93d;
+  --tertiary-color: #a9d4d9;
 }
 
 *,
@@ -13,6 +15,7 @@
 
 h1 {
   margin-top: 10px;
+  color: var(--tertiary-color);
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -30,6 +33,7 @@ header {
 
 h2 {
   margin-top: 20px;
+  color: var(--secondary-color);
 }
 
 footer {
