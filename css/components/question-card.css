@@ -13,12 +13,13 @@
 }
 
 .question-card__list {
-  list-style-type: none;
+  margin: 10px;
   display: flex;
 }
 
 .question-card__list-item {
   margin: 20px 10px 10px 10px;
+  content: 10px;
   border: 1px solid black;
   border-radius: 6px;
   position: relative;
