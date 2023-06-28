@@ -8,7 +8,7 @@
 
 .nav__list-item {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--tertiary-color);
 }
 
 .nav__list-item:hover {
