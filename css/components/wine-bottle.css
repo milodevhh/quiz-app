@@ -1,0 +1,12 @@
+.wine-bottle {
+  fill: blueviolet;
+  position: absolute;
+  top: -25px;
+  right: -15px;
+  z-index: 2;
+}
+
+.wine-bottle:hover {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}

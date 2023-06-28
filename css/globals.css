@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background: #030007;
+  margin: 0px 0px 0px -8px;
+  color: #ffffff;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+footer {
+  background: #030007;
+  margin: 0px 0px 0px -8px;
+  color: #ffffff;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+}
