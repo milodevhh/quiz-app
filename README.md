@@ -8,7 +8,7 @@ In this project I build the layout of my first mobile web application, a quiz ap
 
 I made this app during my course @ [neuefische](https://github.com/neuefische)
 
-You can check a demo on [vercel](https://quiz-app-two-eosin.vercel.app/index.html)
+You can check a demo on [vercel](https://quiz-g4ojuyjfc-milodevhh.vercel.app/index.html)
 
 The app is bulid with:
 
