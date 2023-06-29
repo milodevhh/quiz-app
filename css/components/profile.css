@@ -1,5 +1,24 @@
 .max_dow {
-  margin-top: 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  zoom: 4;
+}
+
+.counter {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  width: 30%;
+}
+
+.bookmarks {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.about--icon {
+  width: 10%;
 }
