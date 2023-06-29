@@ -1,6 +1,7 @@
 .question-card {
-  margin: 100px 80px 100px 80px;
+  margin: 100px 80px;
   border: 1px solid black;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -36,7 +37,6 @@
 
 .question-card__list-item {
   margin: 0px 10px 10px 10px;
-  content: 10px;
   border: 1px solid black;
   border-radius: 6px;
   position: relative;
