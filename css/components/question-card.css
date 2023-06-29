@@ -1,14 +1,12 @@
 .question-card {
-  margin: 100px 80px;
+  margin: 100px 40px;
   border: 1px solid black;
-  max-width: 600px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
 .question-card__answer-container {
-  margin: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -30,7 +28,7 @@
 }
 
 .question-card__list {
-  margin: 10px;
+  gap: 1rem;
   display: flex;
   flex-wrap: wrap;
 }
