@@ -1,30 +1,36 @@
-.max_dow {
-  display: flex;
-  justify-content: center;
-  zoom: 4;
+.user--pic {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.user--name {
+  grid-area: 1 / 2 / 2 / 3;
 }
 
 .counter {
-  margin: 1rem;
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: 80% 1fr;
-  gap: 2rem;
+  grid-area: 1 / 3 / 2 / 4;
   width: 30%;
 }
 
 .bookmarks {
-  margin: 1rem;
-  display: grid;
-  grid-template-columns: 80% 1fr;
-  gap: 2rem;
+  grid-area: 2 / 2 / 3 / 3;
   width: 30%;
 }
 
 .about--icon {
-  margin: 1rem;
-  display: grid;
-  grid-area: 1 / 1 / 2 / 2;
-  grid-area: 1 / 2 / 2 / 3;
-  width: 4%;
+  grid-area: 2 / 3 / 3 / 4;
+  width: 10%;
+}
+
+.about {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.settings--profile {
+}
+
+.settings--profile--block {
 }
