@@ -17,7 +17,7 @@ main {
   margin: 100px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -41,6 +41,8 @@ header {
 
 h2 {
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
   color: var(--secondary-color);
 }
 
