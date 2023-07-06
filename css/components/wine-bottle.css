@@ -5,7 +5,16 @@
   z-index: 2;
 }
 
-.wine-bottle:hover {
+.button-wine-bottle {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: -25px;
+  right: -15px;
+  z-index: 2;
+}
+
+.wine-bottle--clicked {
   filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
     brightness(118%) contrast(119%);
 }
