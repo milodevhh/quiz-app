@@ -2,9 +2,10 @@
 
 In this project I build the layout of my first mobile web application, a quiz app. In later projects I will expand this app and add all sorts of cool functionality. In this app you will be able to:
 
-- Read questions and click buttons to look up the answers.
-- Bookmark questions and view them on a bookmarks page.
-- Visit your profile page.
+- Read questions and click buttons to look up the answers
+- Bookmark questions and view them on a bookmarks page
+- Visit your profile page & edit your Profile
+- Add new Quiz-Cards
 
 I made this app during my course @ [neuefische](https://github.com/neuefische)
 
