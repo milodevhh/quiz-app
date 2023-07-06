@@ -14,26 +14,43 @@
     <main>
       <form data-js="form">
         <fieldset>
-          <legend>Add question & answer</legend>
-          <label for="question">Your question:</label>
-          <input
+          <legend>Add a new Quiz Card</legend>
+          <label for="question" for="personal-message">Your Question:</label>
+          <textarea
+            data-js="personalMessage"
             type="text"
             id="question"
             name="question"
             required
-            maxlength="150" />
-          <span class="maxlengthAddQuestion">0 / 150</span>
-          <label for="answer">Your answer:</label>
-          <input
+            cols="24"
+            rows="4"
+            placeholder="Write here your Question..."
+            maxlength="150"></textarea>
+          <small class="form__character-count"
+            >(<span data-js="amountLeft"></span> characters left)</small
+          >
+          <label for="answer" for="personal-message2">Your Answer:</label>
+          <textarea
+            data-js="personalMessage2"
             type="text"
             id="answer"
             name="answer"
             required
-            maxlength="150" />
-          <span class="maxlengthAddQuestion">0 / 150</span>
+            cols="24"
+            rows="4"
+            placeholder="Write here your Answer..."
+            maxlength="150"></textarea>
+          <small class="form__character-count"
+            >(<span data-js="amountLeft2"></span> characters left)</small
+          >
         </fieldset>
         <label for="tag">Tag:</label>
-        <input type="text" id="tag" name="tag" required />
+        <input
+          type="text"
+          id="tag"
+          name="tag"
+          required
+          placeholder="give us a tag" />
         <button type="submit" value="Submit">Add new Quiz Card</button>
       </form>
       <ul data-js="addNewCard"></ul>

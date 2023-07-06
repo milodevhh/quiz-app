@@ -1,5 +1,3 @@
-console.log("test");
-
 const form = document.querySelector('[data-js="form"]');
 
 form.addEventListener("submit", (event) => {
@@ -79,3 +77,19 @@ form.addEventListener("submit", (event) => {
   event.target.elements.question.focus();
   createList(question, answer, tag);
 });
+
+const questionElement = document.querySelector('[data-js="personalMessage"]');
+const amountLeft = document.querySelector('[data-js="amountLeft"]');
+
+const questionElement2 = document.querySelector('[data-js="personalMessage2"]');
+const amountLeft2 = document.querySelector('[data-js="amountLeft2"]');
+
+function addCharactersLeftCounter(element, count) {
+  const maxLength = element.getAttribute("maxlength");
+  count.innerText = maxLength;
+  element.addEventListener("input", () => {
+    count.innerText = maxLength - element.value.length;
+  });
+}
+addCharactersLeftCounter(questionElement, amountLeft);
+addCharactersLeftCounter(questionElement2, amountLeft2);
