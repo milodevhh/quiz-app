@@ -1,18 +1,23 @@
 .user__profile {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 50% 50%;
   grid-gap: 1rem;
   align-items: center;
   width: 100%;
 }
 
 .user__profile--picIcon {
-  width: 100%;
+  width: 40%;
   max-width: 50vw;
 }
 
 .user--name {
   grid-column: 2;
+}
+
+.counter img {
+  width: 20px;
+  margin-right: 1rem;
 }
 
 .counter,
