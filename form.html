@@ -16,9 +16,21 @@
         <fieldset>
           <legend>Add question & answer</legend>
           <label for="question">Your question:</label>
-          <input type="text" id="question" name="question" required />
+          <input
+            type="text"
+            id="question"
+            name="question"
+            required
+            maxlength="150" />
+          <span class="maxlengthAddQuestion">0 / 150</span>
           <label for="answer">Your answer:</label>
-          <input type="text" id="answer" name="answer" required />
+          <input
+            type="text"
+            id="answer"
+            name="answer"
+            required
+            maxlength="150" />
+          <span class="maxlengthAddQuestion">0 / 150</span>
         </fieldset>
         <label for="tag">Tag:</label>
         <input type="text" id="tag" name="tag" required />
