@@ -1,4 +1,4 @@
-.user--pic {
+.user__profile {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-gap: 1rem;
@@ -6,9 +6,9 @@
   width: 100%;
 }
 
-.user--pic__Icon {
+.user__profile--picIcon {
   width: 100%;
-  max-width: 100px;
+  max-width: 50vw;
 }
 
 .user--name {
@@ -20,19 +20,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
   width: 30%;
 }
 
 .about--icon {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 55%;
-  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 
 .about {
-  text-align: justify;
 }
 
 .settings--profile {
