@@ -10,12 +10,12 @@
     <header>
       <h1>Quiz App</h1>
     </header>
+    <main>
     <section class="question-card">
       <div class="question-card__answer-container">
-        <h2>What is Riesling?</h2>
-        <button aria-label="Klick here to get answere">Show Answer</button>
-        <p>A Grape variety, that was esay</p>
-        <button>Hide Answer</button>
+        <h2 aria-labelledby="question">What is Riesling?</h2>
+        <p aria-label="answere" class="question-card__text">A Grape variety, that was esay</p>
+        <button class="question-card__button">Show / Hide Answer</button>
       </div>
       <ul class="question-card__list">
         <li class="question-card__list-item">#wine</li>
@@ -26,32 +26,31 @@
     </section>
     <section class="question-card">
       <div class="question-card__answer-container">
-        <h2>What is #2 Question?</h2>
-        <button aria-label="Klick here to get answere">Show Answer</button>
-        <p>A Grape variety, that was esay</p>
-        <button>Hide Answer</button>
+        <h2 aria-labelledby="question">What is #2 Question?</h2>
+        <p aria-label="answere" class="question-card__text">A Grape variety, that was esay</p>
+        <button class="question-card__button">Show / Hide Answer</button>
       </div>
       <ul class="question-card__list">
         <li class="question-card__list-item">#wine</li>
         <li class="question-card__list-item">#basic</li>
         <li class="question-card__list-item">#beverage</li>
       </ul>
-      <p><img class="wine-bottle" src="/icons/wine-bottle.svg"></img></p>
+      <p><img class="wine-bottle" src="/icons/wine-bottle.svg"></p>
     </section>
-    <section class="question-card">
-      <div class="question-card__answer-container">
-        <h2>What is #3 Question</h2>
-        <button aria-label="Klick here to get answere">Show Answer</button>
-        <p>A Grape variety, that was esay</p>
-        <button>Hide Answer</button>
-      </div>
-      <ul class="question-card__list">
-        <li class="question-card__list-item">#wine</li>
-        <li class="question-card__list-item">#basic</li>
-        <li class="question-card__list-item">#beverage</li>
-      </ul>
-      <p><img class="wine-bottle" src="/icons/wine-bottle.svg"></img></p>
-    </section>
+  <section class="question-card">
+    <div class="question-card__answer-container">
+      <h2 aria-labelledby="question">What is #2 Question?</h2>
+      <p aria-label="answere" class="question-card__text">A Grape variety, that was esay</p>
+      <button class="question-card__button">Show / Hide Answer</button>
+    </div>
+    <ul class="question-card__list">
+      <li class="question-card__list-item">#wine</li>
+      <li class="question-card__list-item">#basic</li>
+      <li class="question-card__list-item">#beverage</li>
+    </ul>
+    <p><img class="wine-bottle" src="/icons/wine-bottle.svg"></img></p>
+  </section>
+  </main>
     <footer>
       <nav>
         <ul class="nav__list">
