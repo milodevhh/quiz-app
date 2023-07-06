@@ -1,5 +1,6 @@
 .question-card {
-  margin-bottom: 50px;
+  width: 100%;
+  margin-bottom: 5rem;
   border: 1px solid black;
   display: flex;
   flex-direction: column;
@@ -9,6 +10,14 @@
 .question-card__answer-container {
   padding: 20px;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.question-card__answer-container--hidden {
+  display: none;
+  padding: 20px;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
