@@ -15,17 +15,17 @@ wineBottleButton.addEventListener("click", (event) => {
   console.log("bitte");
 });
 
-function toggleAnswer() {
-  var answerBtn = document.getElementById("answerButton");
-  var answerText = document.getElementById("answerText");
+const answerButton = document.querySelector('[data-js="answerButton"]');
+const answerText = document.querySelector('[data-js="answerText"]');
 
+function toggleAnswer() {
   if (
     answerText.classList.contains("question-card__answer-container--hidden")
   ) {
     answerText.classList.remove("question-card__answer-container--hidden");
-    answerBtn.textContent = "Hide Answer";
+    answerButton.textContent = "Hide Answer";
   } else {
     answerText.classList.add("question-card__answer-container--hidden");
-    answerBtn.textContent = "Show Answer";
+    answerButton.textContent = "Show Answer";
   }
 }
