@@ -4,57 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="form.js" defer></script>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <header>
-      <h1>Your Profile</h1>
+      <h1>Add Question</h1>
     </header>
     <main>
-      <section class="user__profile">
-        <img
-          class="user__profile--picIcon"
-          src="./icons/profile-round.svg"
-          alt="picture max doe" />
-        <h2 class="user--name">Max Doe</h2>
-        <div class="counter">
-          <a href=""
-            ><img src="./icons/done-mini.svg" alt="question counter" />
-          </a>
-          <p>72 right questions</p>
-        </div>
-        <div class="bookmarks">
-          <a href=""
-            ><img src="./icons/wine-bottle.svg" alt="icon wine bottle bookmark"
-          /></a>
-          <p>8 marked Questions</p>
-        </div>
-      </section>
-      <div class="about">
-        <h2>About Me</h2>
-        <p>
-          <img src="./icons/edit-3.svg" alt="edit about me section" />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ab
-          optio repudiandae aspernatur, neque esse facilis ut
-        </p>
-      </div>
-      <div class="settings--profile">
-        <h2>Settings</h2>
-        <div class="settings--profile--block">
-          <form class="profile__settings__theme" aria-labelledby="title">
-            <input
-              type="checkbox"
-              id="switch-darkmode"
-              class="profile__settings__theme-darkmode-input"
-              data-js="toggle-darkmode" />
-            <label
-              for="switch-darkmode"
-              class="profile__settings__theme-darkmode-label"
-              >Toggle Darkmode</label
-            >
-          </form>
-        </div>
-      </div>
+      <form data-js="form">
+        <fieldset>
+          <legend>Add a new Quiz Card</legend>
+          <label for="question">Your Question:</label>
+          <textarea
+            data-js="personalMessage"
+            id="question"
+            name="question"
+            required
+            cols="24"
+            rows="4"
+            placeholder="Write here your Question..."
+            maxlength="150"></textarea>
+          <small class="form__character-count"
+            >(<span data-js="amountLeft"></span> characters left)</small
+          >
+          <label for="answer" for="personal-message2">Your Answer:</label>
+          <textarea
+            data-js="personalMessage2"
+            type="text"
+            id="answer"
+            name="answer"
+            required
+            cols="24"
+            rows="4"
+            placeholder="Write here your Answer..."
+            maxlength="150"></textarea>
+          <small class="form__character-count"
+            >(<span data-js="amountLeft2"></span> characters left)</small
+          >
+        </fieldset>
+        <label for="tag">Tag:</label>
+        <input
+          type="text"
+          id="tag"
+          name="tag"
+          required
+          placeholder="give us a tag" />
+        <button type="submit" value="Submit">Add new Quiz Card</button>
+      </form>
+      <ul data-js="addNewCard"></ul>
     </main>
     <footer>
       <nav>
